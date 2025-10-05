@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![Expertline Logo](webview-ui/src/assets/expertline-logo.svg)
-
 **F1 for coders, Use the C1 in your projects.**
 
 [![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-blue?logo=visual-studio-code)](https://code.visualstudio.com/)
