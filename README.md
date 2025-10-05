@@ -13,42 +13,42 @@
 
 </div>
 
-## 🚀 Overview
+## Overview
 
 Expertline is a powerful VS Code extension that integrates with the [Expertline platform](https://expertline.xamples.xyz/) to help developers find the most optimized code solutions. This extension provides expert recommendations and AI-powered alternatives by analyzing your selected code and presenting comprehensive comparisons with pros, cons, complexity ratings, and community endorsements.
 
-### 🌐 Expertline Platform
+### Expertline Platform
 Visit the main [Expertline website](https://expertline.xamples.xyz/) to:
 - **Explore Topics**: Browse expert-curated coding topics and best practices
 - **View Posts**: Access detailed posts with community endorsements
 - **Discover Solutions**: Find optimized approaches for your specific use cases
 - **Join Community**: Connect with industry experts and fellow developers
 
-## ✨ Key Features
+## Key Features
 
-### 🎯 **Dual Analysis Modes**
+### Dual Analysis Modes
 - **Expert Mode**: Community-vetted solutions with endorsements and author information
 - **AI Mode**: AI-generated alternatives using Google Gemini with contextual analysis
 
-### 📊 **Comprehensive Comparisons**
+### Comprehensive Comparisons
 - **Detailed Analysis**: Pros, cons, complexity ratings, and code examples
 - **Community Insights**: Endorsement counts, opposition rates, and author credibility
 - **Relevant Topics**: Tagged topics for easy categorization and discovery
 - **Reference Links**: Direct access to original posts and documentation
 
-### 🎨 **Modern UI/UX**
+### Modern UI/UX
 - **Responsive Design**: Optimized for all screen sizes
 - **VS Code Integration**: Native UI components with consistent theming
 - **Interactive Elements**: Clickable topic tags and reference links
 - **Real-time Feedback**: Status messages and progress indicators
 
-### ⚡ **Smart Automation**
+### Smart Automation
 - **Auto Mode**: Automatically analyzes code when selected
 - **Manual Mode**: Full control over analysis timing and context
 - **Keyboard Shortcuts**: Quick access with `Alt+X`
 - **Context Menu**: Right-click integration for seamless workflow
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - **VS Code**: Version 1.104.0 or higher
@@ -85,7 +85,7 @@ Visit the main [Expertline website](https://expertline.xamples.xyz/) to:
 ### Production Installation
 *(Coming soon - VS Code Marketplace)*
 
-## 🎮 How to Use
+## How to Use
 
 ### Quick Start
 1. **Select Code**: Highlight any code snippet in your VS Code editor
@@ -100,8 +100,8 @@ Visit the main [Expertline website](https://expertline.xamples.xyz/) to:
 | Feature | Expert Mode | AI Mode |
 |---------|-------------|---------|
 | **Source** | Community Experts | Google Gemini AI |
-| **Endorsements** | ✅ Community Votes | ❌ Not Available |
-| **Author Info** | ✅ Username & Categories | ❌ Not Available |
+| **Endorsements** | Community Votes | Not Available |
+| **Author Info** | Username & Categories | Not Available |
 | **Speed** | Fast | Moderate |
 | **Accuracy** | High (Human Vetted) | High (AI Powered) |
 
@@ -111,7 +111,7 @@ Enable Auto Mode for automatic analysis when you select new code:
 - **Smart Detection**: Ignores placeholder text
 - **Seamless Integration**: Works with your normal coding workflow
 
-## 🔧 API Integration
+## API Integration
 
 The extension communicates with the [Expertline platform API](https://expertline.xamples.xyz/) at `https://expertline.xamples.xyz/api/compare`:
 
@@ -153,7 +153,7 @@ The extension communicates with the [Expertline platform API](https://expertline
 }
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 expertline-vscode-extension/
@@ -178,7 +178,7 @@ expertline-vscode-extension/
 └── LICENSE                    # GPL-3.0 license
 ```
 
-## 🛠️ Development
+## Development
 
 ### Available Scripts
 
@@ -224,7 +224,7 @@ npm run package
 2. **Console Logs**: Check the Extension Development Host console
 3. **Webview DevTools**: Use browser dev tools for webview debugging
 
-## 🎨 Customization
+## Customization
 
 ### Themes
 The extension automatically adapts to your VS Code theme:
@@ -242,7 +242,7 @@ Configure the extension behavior through VS Code settings:
 }
 ```
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -271,7 +271,7 @@ Configure the extension behavior through VS Code settings:
 2. **Verify Network**: Ensure `https://expertline.xamples.xyz` is accessible
 3. **Report Issues**: Create an issue on GitHub with error details
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -290,25 +290,25 @@ We welcome contributions! Here's how you can help:
 - **Documentation**: Better guides and examples
 - **Testing**: Unit tests and integration tests
 
-## 📄 License
+## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Expertline Team**: For providing the powerful API and platform
 - **VS Code Team**: For the excellent extension development framework
 - **React Community**: For the robust webview UI framework
 - **Contributors**: Thanks to all who help improve this extension
 
-## 📞 Support
+## Support
 
 - **GitHub Issues**: [Report bugs and request features](https://github.com/alichohan1999/expertline-vscode-extension/issues)
 - **Expertline Platform**: [https://expertline.xamples.xyz](https://expertline.xamples.xyz) - Main website for topics, posts, and community
 - **Documentation**: Check this README and inline code comments
 - **Community**: Join discussions on the [Expertline platform](https://expertline.xamples.xyz/)
 
-## 🔮 Roadmap
+## Roadmap
 
 ### Upcoming Features
 - [ ] **VS Code Marketplace**: Official extension distribution
@@ -321,19 +321,19 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ### Version History
 
 #### v0.0.1 (Current)
-- ✅ Initial release with Expert and AI modes
-- ✅ Comprehensive comparison tables
-- ✅ Auto and manual analysis modes
-- ✅ VS Code native UI integration
-- ✅ Responsive design and modern styling
-- ✅ Real-time status messages and feedback
+- Initial release with Expert and AI modes
+- Comprehensive comparison tables
+- Auto and manual analysis modes
+- VS Code native UI integration
+- Responsive design and modern styling
+- Real-time status messages and feedback
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for the developer community**
+**Made with love for the developer community**
 
-[⭐ Star this repository](https://github.com/alichohan1999/expertline-vscode-extension) | [🌐 Visit Expertline Platform](https://expertline.xamples.xyz/) | [🐛 Report Issues](https://github.com/alichohan1999/expertline-vscode-extension/issues) | [💡 Request Features](https://github.com/alichohan1999/expertline-vscode-extension/issues)
+[Star this repository](https://github.com/alichohan1999/expertline-vscode-extension) | [Visit Expertline Platform](https://expertline.xamples.xyz/) | [Report Issues](https://github.com/alichohan1999/expertline-vscode-extension/issues) | [Request Features](https://github.com/alichohan1999/expertline-vscode-extension/issues)
 
 </div>
