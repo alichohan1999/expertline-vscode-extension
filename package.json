@@ -1,0 +1,83 @@
+{
+  "name": "expertline",
+  "displayName": "Expertline",
+  "description": "F1 for coders use C1 in your projects. Expertline is a tool that helps you find the best code options recommended by various documentation and industry experts. It provides a comparison of the pros and cons between each option, so you can select the most optimized approach for your application according to your specific use case.",
+  "version": "0.0.1",
+  "publisher": "XAMPLES",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "AI",
+    "Snippets",
+    "Programming Languages",
+    "Education",
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "panel": [
+        {
+          "id": "FindTab",
+          "title": "Expertline",
+          "icon": "./resources/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "FindTab": [
+        {
+          "id": "FindTabView",
+          "type": "webview",
+          "name": ""
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "expertline.find",
+        "title": "Find Expertline"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "expertline.find",
+        "key": "alt+x",
+        "when": "editorTextFocus"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "expertline.find",
+          "when": "editorHasSelection",
+          "group": "1_modification@100"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "install:all": "npm install && cd webview-ui && npm install",
+    "start:webview": "cd webview-ui && npm run start",
+    "build:webview": "cd webview-ui && npm run build",
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.104.0",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.34.0",
+    "typescript": "^5.9.2"
+  }
+}
