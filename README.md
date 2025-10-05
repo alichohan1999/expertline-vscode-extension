@@ -8,7 +8,8 @@
 
 [![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-blue?logo=visual-studio-code)](https://code.visualstudio.com/)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
-[![API](https://img.shields.io/badge/API-Expertline-orange)](https://expertline.xamples.xyz/)
+[![Expertline Platform](https://img.shields.io/badge/Platform-Expertline-orange?logo=web)](https://expertline.xamples.xyz/)
+[![Website](https://img.shields.io/badge/Website-Expertline-green)](https://expertline.xamples.xyz/)
 
 *Find the best code options recommended by industry experts and documentation*
 
@@ -16,7 +17,14 @@
 
 ## 🚀 Overview
 
-Expertline is a powerful VS Code extension that helps developers find the most optimized code solutions by providing expert recommendations and AI-powered alternatives. It analyzes your selected code and presents comprehensive comparisons with pros, cons, complexity ratings, and community endorsements.
+Expertline is a powerful VS Code extension that integrates with the [Expertline platform](https://expertline.xamples.xyz/) to help developers find the most optimized code solutions. This extension provides expert recommendations and AI-powered alternatives by analyzing your selected code and presenting comprehensive comparisons with pros, cons, complexity ratings, and community endorsements.
+
+### 🌐 Expertline Platform
+Visit the main [Expertline website](https://expertline.xamples.xyz/) to:
+- **Explore Topics**: Browse expert-curated coding topics and best practices
+- **View Posts**: Access detailed posts with community endorsements
+- **Discover Solutions**: Find optimized approaches for your specific use cases
+- **Join Community**: Connect with industry experts and fellow developers
 
 ## ✨ Key Features
 
@@ -107,7 +115,7 @@ Enable Auto Mode for automatic analysis when you select new code:
 
 ## 🔧 API Integration
 
-The extension communicates with the Expertline API at `https://expertline.xamples.xyz/api/compare`:
+The extension communicates with the [Expertline platform API](https://expertline.xamples.xyz/) at `https://expertline.xamples.xyz/api/compare`:
 
 ### Request Format
 ```json
@@ -298,8 +306,9 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## 📞 Support
 
 - **GitHub Issues**: [Report bugs and request features](https://github.com/alichohan1999/expertline-vscode-extension/issues)
-- **Expertline Website**: [https://expertline.xamples.xyz](https://expertline.xamples.xyz)
+- **Expertline Platform**: [https://expertline.xamples.xyz](https://expertline.xamples.xyz) - Main website for topics, posts, and community
 - **Documentation**: Check this README and inline code comments
+- **Community**: Join discussions on the [Expertline platform](https://expertline.xamples.xyz/)
 
 ## 🔮 Roadmap
 
@@ -327,6 +336,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 **Made with ❤️ for the developer community**
 
-[⭐ Star this repository](https://github.com/alichohan1999/expertline-vscode-extension) | [🐛 Report Issues](https://github.com/alichohan1999/expertline-vscode-extension/issues) | [💡 Request Features](https://github.com/alichohan1999/expertline-vscode-extension/issues)
+[⭐ Star this repository](https://github.com/alichohan1999/expertline-vscode-extension) | [🌐 Visit Expertline Platform](https://expertline.xamples.xyz/) | [🐛 Report Issues](https://github.com/alichohan1999/expertline-vscode-extension/issues) | [💡 Request Features](https://github.com/alichohan1999/expertline-vscode-extension/issues)
 
 </div>
