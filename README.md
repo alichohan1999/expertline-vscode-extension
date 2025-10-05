@@ -55,33 +55,6 @@ Visit the main [Expertline website](https://expertline.xamples.xyz/) to:
 - **Node.js**: Version 16.0.0 or higher
 - **Internet Connection**: Required for API access
 
-### Development Setup
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/alichohan1999/expertline-vscode-extension.git
-   cd expertline-vscode-extension
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm run install:all
-   ```
-
-3. **Build the Extension**
-   ```bash
-   # Build the React webview UI
-   npm run build:webview
-   
-   # Compile the TypeScript extension
-   npm run compile
-   ```
-
-4. **Run in Development Mode**
-   ```bash
-   # Press F5 in VS Code to launch Extension Development Host
-   ```
-
 ### Production Installation
 *(Coming soon - VS Code Marketplace)*
 
