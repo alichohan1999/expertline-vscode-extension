@@ -52,7 +52,6 @@ Visit the main [Expertline website](https://expertline.xamples.xyz/) to:
 
 ### Prerequisites
 - **VS Code**: Version 1.104.0 or higher
-- **Node.js**: Version 16.0.0 or higher
 - **Internet Connection**: Required for API access
 
 ### Production Installation
@@ -126,77 +125,6 @@ The extension communicates with the [Expertline platform API](https://expertline
 }
 ```
 
-## Project Structure
-
-```
-expertline-vscode-extension/
-├── expertline/
-│   ├── src/                    # Extension source code
-│   │   ├── extension.ts        # Main extension entry point
-│   │   └── panels/            # Webview panel implementations
-│   │       ├── findTab.ts     # Main panel logic
-│   │       └── index.ts       # Panel exports
-│   ├── webview-ui/            # React webview application
-│   │   ├── src/
-│   │   │   ├── App.tsx        # Main React component
-│   │   │   ├── App.css        # Styling and theming
-│   │   │   ├── assets/        # Images and icons
-│   │   │   └── utilities/     # Helper functions
-│   │   │       └── vscode.ts  # VS Code API wrapper
-│   │   └── build/             # Built webview assets
-│   ├── out/                   # Compiled extension code
-│   ├── package.json           # Extension manifest
-│   └── tsconfig.json          # TypeScript configuration
-├── README.md                  # This file
-└── LICENSE                    # GPL-3.0 license
-```
-
-## Development
-
-### Available Scripts
-
-```bash
-# Install all dependencies (extension + webview)
-npm run install:all
-
-# Build React webview UI
-npm run build:webview
-
-# Compile TypeScript extension
-npm run compile
-
-# Watch mode for development
-npm run watch
-
-# Package extension for distribution
-npm run package
-```
-
-### Building for Production
-
-1. **Build the Webview**
-   ```bash
-   cd webview-ui
-   npm run build
-   cd ..
-   ```
-
-2. **Compile the Extension**
-   ```bash
-   npm run compile
-   ```
-
-3. **Package the Extension**
-   ```bash
-   npm run package
-   ```
-
-### Debugging
-
-1. **Set Breakpoints**: Use VS Code's built-in debugger
-2. **Console Logs**: Check the Extension Development Host console
-3. **Webview DevTools**: Use browser dev tools for webview debugging
-
 ## Customization
 
 ### Themes
@@ -243,25 +171,6 @@ Configure the extension behavior through VS Code settings:
 1. **Check the Console**: Open VS Code Developer Tools for detailed error messages
 2. **Verify Network**: Ensure `https://expertline.xamples.xyz` is accessible
 3. **Report Issues**: Create an issue on GitHub with error details
-
-## Contributing
-
-We welcome contributions! Here's how you can help:
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Make your changes and test thoroughly
-4. Commit your changes: `git commit -m 'Add amazing feature'`
-5. Push to your fork: `git push origin feature/amazing-feature`
-6. Open a Pull Request
-
-### Areas for Contribution
-- **UI/UX Improvements**: Better design and user experience
-- **Performance**: Faster API calls and rendering
-- **Features**: New analysis modes and capabilities
-- **Documentation**: Better guides and examples
-- **Testing**: Unit tests and integration tests
 
 ## License
 
